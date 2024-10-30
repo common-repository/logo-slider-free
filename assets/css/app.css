@@ -1,0 +1,802 @@
+/*
+*  Plugin css
+*
+*/
+
+#margin_area{
+  display: none;
+}
+
+#isotop_area{
+  display: none;
+}
+
+/*  Carousel Default Style */
+
+
+.lsuw_slider_style1-title {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  color:#000;
+  line-height: 30px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.lsuw_slider_style1-link > a {
+  border: medium none;
+  box-shadow: none;
+  outline: medium none;
+  text-decoration: none;
+  transition: none 0s ease 0s ;
+}
+.lsuw_slider_style1-link > a:focus {
+  box-shadow: none;
+  outline: medium none;
+}
+.lsuw_slider_style1 .lsuw_slider_style1-title a {
+  border: medium none;
+  box-shadow: none;
+  outline: medium none;
+  text-decoration: none;
+}
+
+/*  Grid Style 01 */
+
+.lsuw-logo-gird-1 {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+.carousel-style2-title {
+  background: rgba(0, 0, 0, 0.35) none repeat scroll 0 0;
+  bottom: 0;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  line-height: 1.4em;
+  padding: 10px 15px;
+  position: absolute;
+  width: 100%;
+}
+.lsuw-logo-gird-1-thumbnail {
+  border: 1px solid #ddd;
+  display: block;
+  margin: 2px;
+  overflow: hidden;
+  transition: all 0.5s ease 0s;
+}
+.lsuw-logo-gird-1-thumbnail > a {
+  box-shadow: none;
+  outline: medium none;
+  text-decoration: none;
+}
+.lsuw-logo-gird-1-thumbnail > a:focus {
+  box-shadow: none;
+  outline: medium none;
+  text-decoration: none;
+}
+.lsuw-logo-gird-1-thumbnail a img{
+	border-radius: 0;
+	box-shadow: none;
+}
+.lsuw-logo-gird-1-title {
+    color: #2f2f2f;
+    margin-bottom: 2px;
+    padding: 0 10px;
+    text-align: center;
+}
+.lsuw-logo-gird-1-description {
+    color: #2f2f2f;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+.lsuw-logo-gird-1 .lsuw-logo-gird-1-thumbnail img {
+  border: medium none;
+  box-shadow: none;
+  outline: medium none;
+}
+
+
+
+
+/* Grid Style 2 */
+
+.lsuw-logo-gird-2 {
+  box-shadow: none;
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.lsuw-logo-gird-2:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(2, 162, 221, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.lsuw-logo-gird-2:hover:after{
+    opacity: 1;
+}
+.lsuw-logo-gird-2 img{
+    transition: all 1.5s ease 0s;
+}
+.lsuw-logo-gird-2:hover img{
+    transform: scale(1.2);
+}
+.lsuw-logo-gird-2 .lsuw-logo-gird-2-icon{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.lsuw-logo-gird-2 .lsuw-logo-gird-2-icon li{
+    display: inline-block;
+}
+.lsuw-logo-gird-2 .lsuw-logo-gird-2-icon li a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-shadow: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  height: 42px;
+  line-height: 42px;
+  margin: 0 auto;
+  opacity: 0;
+  outline: medium none;
+  position: absolute;
+  text-decoration: none;
+  top: 50%;
+  transition: all 0.6s ease 0s;
+  width: 35px;
+}
+.lsuw-logo-gird-2:hover .lsuw-logo-gird-2-icon li a{
+    top: 30%;
+    opacity: 1;
+}
+.lsuw-logo-gird-2 .lsuw-logo-gird-2-icon li a:hover{
+    background: #fff;
+    color: #02a2dd;
+}
+.lsuw-logo-gird-2 .lsuw-logo-gird-2-icon li:first-child a{
+    left: -90%;
+    right: 0;
+}
+.lsuw-logo-gird-2:hover .lsuw-logo-gird-2-icon li:first-child a{
+    left: -55px;
+}
+.lsuw-logo-gird-2 .lsuw-logo-gird-2-icon li:last-child a{
+    right:0%;
+    left: 0;
+}
+.lsuw-logo-gird-2:hover .lsuw-logo-gird-2-icon li:last-child a{
+    right: -55px;
+}
+.lsuw-logo-gird-2 .lsuw-logo-gird-2-content{
+    width: 100%;
+    padding: 0px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    z-index: 1;
+    transition: all 0.6s ease 0s;
+}
+.lsuw-logo-gird-2:hover .lsuw-logo-gird-2-content{
+    bottom: 0;
+}
+.lsuw-logo-gird-2 .lsuw-logo-gird-2-content h3.lsuw-logo-gird-2-title {
+  margin-bottom: 0;
+  padding: 8px;
+  font-size:14px;
+  margin: 0px;
+}
+.lsuw-logo-gird-2-description {
+    color: #2f2f2f;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*  Grid Style 03 */
+
+.lsuw-logo-gird-3{
+    overflow: hidden;
+    position: relative;
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-content:before,
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-content:after{
+    content: "";
+    width: 95%;
+    height: 47%;
+    background: #d83f15;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-content:before{
+    top: -20%;
+}
+.lsuw-logo-gird-3:hover .lsuw-logo-gird-3-content:before{
+    top: 3%;
+    opacity: 0.8;
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-content:after{
+    bottom: -20%;
+}
+.lsuw-logo-gird-3:hover .lsuw-logo-gird-3-content:after{
+    bottom: 3%;
+    opacity: 0.8;
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-iconcontent{
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    opacity: 0;
+    transform: rotate(90deg);
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+.lsuw-logo-gird-3:hover .lsuw-logo-gird-3-iconcontent{
+    opacity: 1;
+    transform: rotate(0deg);
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-icon{
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-icon li{
+    display: inline-block;
+    margin: 0px;
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-icon li a {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  box-shadow: none;
+  color: #000;
+  display: block;
+  font-size: 16px;
+  height: 35px;
+  line-height: 36px;
+  outline: medium none;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  width: 35px;
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-icon li a:hover{
+    color: #d83f15;
+}
+.lsuw-logo-gird-3 .lsuw-logo-gird-3-title{
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+	margin: 0 7px;
+	padding: 0px;
+}
+.lsuw-logo-gird-3-description {
+    color: #2f2f2f;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+/*  Carousel Style 03 */
+
+.carousel-style3{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.carousel-style3 .carousel-style3-img{
+    position: relative;
+}
+.carousel-style3 .carousel-style3-img:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.carousel-style3:hover .carousel-style3-img:before{
+    opacity: 1;
+}
+.carousel-style3 .carousel-style3-options{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+}
+.carousel-style3 .carousel-style3-options a{
+	background: #fff none repeat scroll 0 0;
+	border-radius: 50%;
+	box-shadow: none;
+	color: #00afff;
+	display: inline-block;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 5px;
+	outline: medium none;
+	position: relative;
+	text-decoration: none;
+	top: 45%;
+	transform: rotateZ(180deg);
+	transition: transform 0.3s ease 0s, opacity 0.3s ease 0s;
+	width: 40px;
+}
+.carousel-style3 .carousel-style3-options a:hover{
+    text-decoration: none;
+    color:#718873;
+}
+.carousel-style3:hover .carousel-style3-options a{
+    transform: rotateZ(0deg);
+}
+.carousel-style3 .carousel-style3-options .fa-link{
+    transform-origin: -190% 50% 0;
+}
+.carousel-style3 .carousel-style3-options .fa-eye{
+    transform-origin: 300% 50% 0;
+}
+
+
+
+.carousel-style3-title {
+  background: #f1f1f1;
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  color:#000;
+  line-height: 30px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  padding: 5px;
+}
+
+/*  Carousel Style 04 */
+
+
+.carousel-style4{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.carousel-style4 .carousel-style4-img{
+    position: relative;
+}
+.carousel-style4 .carousel-style4-img:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.carousel-style4:hover .carousel-style4-img:before{
+    opacity: 1;
+}
+.carousel-style4 .link{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+}
+.carousel-style4 .link a {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  box-shadow: none;
+  color: #00afff;
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  outline: medium none;
+  position: relative;
+  text-decoration: none;
+  top: 45%;
+  width: 40px;
+  margin-right: 5px;
+}
+.carousel-style4 .link a:focus {
+  color:#000;
+}
+.carousel-style4 .link a:hover{
+    text-decoration: none;
+    color:#718873;
+}
+.carousel-style4:hover .link a{
+    transform: rotateZ(0deg);
+}
+.carousel-style4 .link .fa-link{
+    transform-origin: -190% 50% 0;
+}
+.carousel-style4 .link .fa-eye{
+    transform-origin: 300% 50% 0;
+}
+
+.carousel-style4-title {
+  background: #f1f1f1;
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  color:#000;
+  line-height: 30px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  padding: 5px;
+}
+
+
+/*  Carousel Style 05 */
+
+.portfolio-filter {
+	margin-bottom:15px;
+	margin:	0;
+	padding: 0px;
+}
+.portfolio-filter ul.filter {
+	color: #2e2e2e
+}
+.portfolio-filter ul.filter li{
+	border: 2px solid #429aff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	list-style: outside none none;
+	margin: 0 10px 10px 0;
+	padding: 5px;
+	position: relative;
+}
+.portfolio-filter ul.filter li.active{
+	color: #549DC5
+}
+.portfolio-filter ul.filter li:after{
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #B4B4B4
+}
+.portfolio-filter ul.filter li:last-child{
+}
+.portfolio-filter ul.filter li:last-child:after{
+	display: none
+}
+.portfolio-filter ul.filter li:last-child {
+  margin-right: 0px;
+}
+
+
+.portfolio-filter .lsuwgrid {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+.portfolio-filter .lsuwgrid  .style3box-item {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  list-style: outside none none;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.portfolio-filter .lsuwgrid  .overlay {
+  display: block;
+}
+.portfolio-filter .lsuwgrid  .overlay img {
+  display: block;
+  width: 100%;
+}
+.portfolio-filter .lsuwgrid  .style3box-item  .info {
+  padding: 20px;
+}
+.portfolio-filter .lsuwgrid  .dash-lined {
+  margin: 0;
+  padding: 0;
+}
+.portfolio-filter .lsuwgrid  .dash-lined::after {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  content: "";
+  display: block;
+  margin: 15px 0;
+  width: auto;
+}
+.portfolio-filter .lsuwgrid  .dash-lined > a {
+  color: #616161;
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.portfolio-filter .lsuwgrid .dash-lined a:hover {
+  color: #ca6666;
+  text-decoration: none;
+}
+.portfolio-filter .lsuwgrid .authorinfo {
+  color: #616161;
+  font-size: 13px;
+  text-decoration: none;
+}
+.portfolio-filter .lsuwgrid .info p {
+  color: #595959;
+  font-size: 15px;
+  line-height: 28px;
+}
+.portfolio-filter .lsuwgrid .authorinfo > a {
+  box-shadow: none;
+  outline: medium none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.portfolio-filter .lsuwgrid  a.read-more {
+  font-style: italic;
+  color: #ca6666;
+  text-decoration: none;
+  transition: all 200ms ease-in 0s;
+}
+
+
+/*
+*
+* Style 8
+* 
+*/
+
+.list-style-8 {
+  display: block;
+  overflow: hidden;
+}
+.list-style-8-left {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.list-style-8-right {
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  float:left;
+  width: 70%;
+}
+
+/*
+*
+* Style 9
+* 
+*/
+
+.list-style-9 {
+  display: block;
+  overflow: hidden;
+}
+.list-style-9-left {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.list-style-9-right {
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  float:left;
+  width: 70%;
+}
+
+.list-style-9 .list-style-9-left a img{
+  border-radius: 50%;
+}
+
+
+/*
+*
+* Style 8
+* 
+*/
+
+.list-style-10 {
+  display: block;
+  overflow: hidden;
+}
+.list-style-10-left {
+  display: inline-block;
+  float: right;
+  width: 30%;
+  padding: 10px;
+}
+.list-style-10-right {
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  float:left;
+  width: 70%;
+}
+
+/*************************
+*
+*  Grid Responsive CSS
+*
+**************************/
+.lsuw_logo-col-lg-1, .lsuw_logo-col-lg-2, .lsuw_logo-col-lg-3, .lsuw_logo-col-lg-4, .lsuw_logo-col-lg-5, .lsuw_logo-col-lg-6, .lsuw_logo-col-md-1, .lsuw_logo-col-md-2, .lsuw_logo-col-md-3, .lsuw_logo-col-md-4, .lsuw_logo-col-md-5, .lsuw_logo-col-md-6, .lsuw_logo-col-sm-1, .lsuw_logo-col-sm-2, .lsuw_logo-col-sm-3, .lsuw_logo-col-sm-4, .lsuw_logo-col-sm-5, .lsuw_logo-col-sm-6, .lsuw_logo-col-xs-1, .lsuw_logo-col-xs-2, .lsuw_logo-col-xs-3, .lsuw_logo-col-xs-4, .lsuw_logo-col-xs-5, .lsuw_logo-col-xs-6 {
+	float: left;
+	margin-bottom: 0px;
+	min-height: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+}
+.lsuw_logo-col-lg-1 {
+	width: 100%;
+}
+.lsuw_logo-col-lg-2 {
+	width: 50%;
+}
+.lsuw_logo-col-lg-3 {
+	width: 33.2222%;
+}
+.lsuw_logo-col-lg-4 {
+	width: 24.9%;
+}
+.lsuw_logo-col-lg-5 {
+	width: 19.9%;
+}
+.lsuw_logo-col-lg-6 {
+	width: 16.6667%;
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1100px) {
+	.lsuw_logo-col-md-1{
+		width: 100%;
+	}
+	.lsuw_logo-col-md-2{
+		width: 50%;
+	}
+	.lsuw_logo-col-md-3{
+		width: 33.22222222%;
+	}
+	.lsuw_logo-col-md-4{
+		width: 24.9%;
+	}
+	.lsuw_logo-col-md-5{
+		width: 19.9%;
+	}
+	.lsuw_logo-col-md-6{
+		width: 16.66666666666667%;
+	}
+
+}
+
+/* sm */
+@media (min-width: 650px) and (max-width: 991px) {
+
+	.lsuw_logo-col-sm-1{
+		width: 100%;
+	}
+	.lsuw_logo-col-sm-2{
+		width: 49.9%;
+	}
+	.lsuw_logo-col-sm-3{
+		width: 33.22222222%;
+	}
+	.lsuw_logo-col-sm-4{
+		width: 24.9%;
+	}
+	.lsuw_logo-col-sm-5{
+		width: 19.9%;
+	}
+	.lsuw_logo-col-sm-6{
+		width: 16.66666666666667%;
+	}
+
+  
+  .list-style-8-left{
+    width: 100%;
+  }
+  .list-style-8-right{
+    width: 100%;
+  }
+
+  .list-style-9-left{
+    width: 100%;
+  }
+  .list-style-9-right{
+    width: 100%;
+  }
+
+  .list-style-10-left{
+    width: 100%;
+  }
+  .list-style-10-right{
+    width: 100%;
+  }
+
+}
+
+/* xs */
+@media (max-width: 651px) {
+	.lsuw_logo-col-xs-1{
+		width: 100%;
+	}
+	.lsuw_logo-col-xs-2{
+		width: 49.9%;
+	}
+	.lsuw_logo-col-xs-3{
+		width: 33.22222222%;
+	}
+	.lsuw_logo-col-xs-4{
+		width: 24.9%;
+	}
+	.lsuw_logo-col-xs-5{
+		width: 19.9%;
+	}
+	.lsuw_logo-col-xs-6{
+		width: 16.66666666666667%;
+	}
+  
+  .list-style-8-left{
+    width: 100%;
+  }
+  .list-style-8-right{
+    width: 100%;
+  }
+
+  .list-style-9-left{
+    width: 100%;
+  }
+  .list-style-9-right{
+    width: 100%;
+  }
+
+  .list-style-10-left{
+    width: 100%;
+  }
+  .list-style-10-right{
+    width: 100%;
+  }
+}
